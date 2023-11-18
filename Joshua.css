@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+    body{
+      background: black;
+      color: whitesmoke;
+      background:url(file:///C:/Users/Home/Downloads/Images/comet_kimi_no_na_wa__4k_8k_hd_your_name-1920x1080.jpg);
+      background-size: cover ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment:fixed;
+      width:100vw;
+      height: 100vh;
+    }
+    
+   .animated-text{
+      font-size: 50px;
+      font-weight: 600;
+      min-width: 280px;
+      text-align: center;
+      margin:10px;
+      padding:10px;
+      font-family:Serif;
+      
+      
+  }
+  
+  .animated-text span{
+      position: relative;
+  }
+  
+  .animated-text span::before{
+      content: "Joshua";
+      color: #B15EFF;
+      animation: words 20s infinite;
+      font-family: serif;
+     
+  }
+  
+  .animated-text span::after{
+      content: "";
+      position: absolute;
+      width: calc(100% + 8px);
+      height: 100%;
+      background-color: rgb(65, 36, 145);
+      border-left: 2px solid black;
+      right: -8px;
+      animation: cursor .8s infinite, typing 20s steps(14) infinite;
+  }
+  .animated-text{
+    background-color: rgb(65, 36, 145);
+    border:10px solid white;
+    border-radius: 50px;
+    width:900px;
+    height:100px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left:15%;
+    
+    
+  }
+.Taki{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    left:4%;
+    top:20%;
+    border: 3px solid white;
+}
+.Misuha{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    left:75%;
+    top:20%;
+    border: 3px solid white;
+}
+  .row p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: serif;
+  }
+  .ha{
+    
+    text-align: center;
+    font: serif;
+    margin:10px;
+    padding:10px;
+    font-size:13px;
+  }
+  .he{
+    
+    text-align: center;
+    font: serif;
+    margin:14px;
+    padding:10px;
+    font-size:13px;
+  }
+  
+  .er {
+   text-align: center;
+    margin:10px;
+     font:1.6rem serif;
+  
+  
+  }
+  .ho {
+    text-align: center;
+    font: serif;
+    margin:14px;
+    padding:10px;
+    font-size:13px;
+  
+  }
+  .hop{
+  
+    text-align: center;
+    font: serif;
+    margin:14px;
+    padding:10px;
+    font-size:13px;
+  
+  
+  }
+  
+  hr{
+    border: 3px solid white;
+    margin:10px;
+  }
+  
+  .kop{
+    position:absolute;
+    background:black;
+    width:1380px;
+    height:61px;
+    bottom:10;
+  }
+  
+  .jo{
+    position:absolute;
+    background:black;
+    font-size:15px;
+    text-align:center;
+    width:1380px;
+    bottom:0;
+  }
+  
+  .fa-facebook{
+   position:relative;
+   left:3%;
+   color: #4267B2;
+   margin:5px;
+   padding:5px;
+   background:white;
+   border: 1px solid white;
+   border-radius:50px;
+  }
+  
+  
+  .fa-youtube{
+   position:relative;
+   color:#FF0000;
+   left:4%;
+   margin:5px;
+   padding:5px;
+   background:white;
+   border: 1px solid white;
+   border-radius:50px;
+  
+  }
+  
+  .fa-tiktok{
+   position:relative;
+   left:5%;
+   color:black;
+   background:white;
+   border: 1px solid white;
+   margin:5px;
+   padding:5px;
+   border-radius:50px;
+  
+  
+  }
+  a{
+    margin:10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left:39%;
+    right:39%
+  }
+  @keyframes cursor {
+      to{
+          border-left: 4px solid white;
+      }
+  }
+  
+  @keyframes words {
+      0%,20%{
+          content: "Joshua";
+          color:#5e50d6;
+      }
+      21%,40%{
+          content: "Student";
+          color:#66a3ff;;
+      }
+      41%,60%{
+          content: "Programmer";
+          color:rgb(238, 0, 198);
+      }
+      61%,80%{
+          content: "Developer";
+      }
+      81%,100%{
+          content: "Gamer";
+          color:#cb5bda;
+      }
+  }
+  
+  @keyframes typing {
+      10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+          width: 0;
+      }
+      5%,20%,25%,40%,45%,60%,65%,80%,85%{
+          width: calc(100% + 8px);
+      }
+  }
+    
+    
+   
